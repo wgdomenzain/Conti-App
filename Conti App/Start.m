@@ -109,4 +109,16 @@ float height;
         sizeState =0;
     }
 }
+- (IBAction)switchPressed:(id)sender {
+    NSLog(@"algo");
+    if (self.switchImage.isOn) {
+        
+        self.imgUser.hidden=NO;
+        
+    }
+    else
+    {
+        self.imgUser.hidden=YES;
+    }
+}
 @end

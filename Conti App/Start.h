@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface Start : UIViewController
+//switch
+
+
+//switch value
+@property (strong, nonatomic) IBOutlet UISwitch *switchImage;
 
 //Images
 @property (strong, nonatomic) IBOutlet UIImageView *imgUser;
@@ -21,6 +26,6 @@
 - (IBAction)btnChangeTitlePressed:(id)sender;
 - (IBAction)btnChangeColorPressed:(id)sender;
 - (IBAction)btnChangeSize:(id)sender;
-
+- (IBAction)switchPressed:(id)sender;
 @end
 
