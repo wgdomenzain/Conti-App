@@ -10,11 +10,17 @@
 		D17DBD7D1ADD630400FFCF6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D17DBD7C1ADD630400FFCF6C /* main.m */; };
 		D17DBD801ADD630400FFCF6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D17DBD7F1ADD630400FFCF6C /* AppDelegate.m */; };
 		D17DBD831ADD630400FFCF6C /* Conti_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D17DBD811ADD630400FFCF6C /* Conti_App.xcdatamodeld */; };
-		D17DBD861ADD630400FFCF6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D17DBD851ADD630400FFCF6C /* ViewController.m */; };
+		D17DBD861ADD630400FFCF6C /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = D17DBD851ADD630400FFCF6C /* Start.m */; };
 		D17DBD891ADD630400FFCF6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D17DBD871ADD630400FFCF6C /* Main.storyboard */; };
 		D17DBD8B1ADD630400FFCF6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D17DBD8A1ADD630400FFCF6C /* Images.xcassets */; };
 		D17DBD8E1ADD630400FFCF6C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D17DBD8C1ADD630400FFCF6C /* LaunchScreen.xib */; };
 		D17DBD9A1ADD630400FFCF6C /* Conti_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D17DBD991ADD630400FFCF6C /* Conti_AppTests.m */; };
+		D17DBDAE1ADD746200FFCF6C /* chavo.png in Resources */ = {isa = PBXBuildFile; fileRef = D17DBDA81ADD746200FFCF6C /* chavo.png */; };
+		D17DBDAF1ADD746200FFCF6C /* chilindrina.png in Resources */ = {isa = PBXBuildFile; fileRef = D17DBDA91ADD746200FFCF6C /* chilindrina.png */; };
+		D17DBDB01ADD746200FFCF6C /* clotilde.png in Resources */ = {isa = PBXBuildFile; fileRef = D17DBDAA1ADD746200FFCF6C /* clotilde.png */; };
+		D17DBDB11ADD746200FFCF6C /* github.png in Resources */ = {isa = PBXBuildFile; fileRef = D17DBDAB1ADD746200FFCF6C /* github.png */; };
+		D17DBDB21ADD746200FFCF6C /* jaimito.png in Resources */ = {isa = PBXBuildFile; fileRef = D17DBDAC1ADD746200FFCF6C /* jaimito.png */; };
+		D17DBDB31ADD746200FFCF6C /* nono.png in Resources */ = {isa = PBXBuildFile; fileRef = D17DBDAD1ADD746200FFCF6C /* nono.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +40,20 @@
 		D17DBD7E1ADD630400FFCF6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D17DBD7F1ADD630400FFCF6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D17DBD821ADD630400FFCF6C /* Conti_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Conti_App.xcdatamodel; sourceTree = "<group>"; };
-		D17DBD841ADD630400FFCF6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D17DBD851ADD630400FFCF6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D17DBD841ADD630400FFCF6C /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		D17DBD851ADD630400FFCF6C /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
 		D17DBD881ADD630400FFCF6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D17DBD8A1ADD630400FFCF6C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D17DBD8D1ADD630400FFCF6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D17DBD931ADD630400FFCF6C /* Conti AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Conti AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D17DBD981ADD630400FFCF6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D17DBD991ADD630400FFCF6C /* Conti_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Conti_AppTests.m; sourceTree = "<group>"; };
+		D17DBDA81ADD746200FFCF6C /* chavo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chavo.png; path = img/chavo.png; sourceTree = "<group>"; };
+		D17DBDA91ADD746200FFCF6C /* chilindrina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chilindrina.png; path = img/chilindrina.png; sourceTree = "<group>"; };
+		D17DBDAA1ADD746200FFCF6C /* clotilde.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clotilde.png; path = img/clotilde.png; sourceTree = "<group>"; };
+		D17DBDAB1ADD746200FFCF6C /* github.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = github.png; path = img/github.png; sourceTree = "<group>"; };
+		D17DBDAC1ADD746200FFCF6C /* jaimito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jaimito.png; path = img/jaimito.png; sourceTree = "<group>"; };
+		D17DBDAD1ADD746200FFCF6C /* nono.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nono.png; path = img/nono.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +95,9 @@
 		D17DBD791ADD630400FFCF6C /* Conti App */ = {
 			isa = PBXGroup;
 			children = (
-				D17DBD7E1ADD630400FFCF6C /* AppDelegate.h */,
-				D17DBD7F1ADD630400FFCF6C /* AppDelegate.m */,
-				D17DBD841ADD630400FFCF6C /* ViewController.h */,
-				D17DBD851ADD630400FFCF6C /* ViewController.m */,
+				D17DBDA71ADD745400FFCF6C /* Img */,
+				D17DBDA41ADD699100FFCF6C /* Main */,
+				D17DBDA31ADD698B00FFCF6C /* Controllers */,
 				D17DBD871ADD630400FFCF6C /* Main.storyboard */,
 				D17DBD8A1ADD630400FFCF6C /* Images.xcassets */,
 				D17DBD8C1ADD630400FFCF6C /* LaunchScreen.xib */,
@@ -120,6 +131,37 @@
 				D17DBD981ADD630400FFCF6C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D17DBDA31ADD698B00FFCF6C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D17DBD841ADD630400FFCF6C /* Start.h */,
+				D17DBD851ADD630400FFCF6C /* Start.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D17DBDA41ADD699100FFCF6C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D17DBD7E1ADD630400FFCF6C /* AppDelegate.h */,
+				D17DBD7F1ADD630400FFCF6C /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		D17DBDA71ADD745400FFCF6C /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				D17DBDA81ADD746200FFCF6C /* chavo.png */,
+				D17DBDA91ADD746200FFCF6C /* chilindrina.png */,
+				D17DBDAA1ADD746200FFCF6C /* clotilde.png */,
+				D17DBDAB1ADD746200FFCF6C /* github.png */,
+				D17DBDAC1ADD746200FFCF6C /* jaimito.png */,
+				D17DBDAD1ADD746200FFCF6C /* nono.png */,
+			);
+			name = Img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,8 +245,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D17DBD891ADD630400FFCF6C /* Main.storyboard in Resources */,
+				D17DBDB01ADD746200FFCF6C /* clotilde.png in Resources */,
+				D17DBDB31ADD746200FFCF6C /* nono.png in Resources */,
+				D17DBDAE1ADD746200FFCF6C /* chavo.png in Resources */,
+				D17DBDB21ADD746200FFCF6C /* jaimito.png in Resources */,
 				D17DBD8E1ADD630400FFCF6C /* LaunchScreen.xib in Resources */,
+				D17DBDAF1ADD746200FFCF6C /* chilindrina.png in Resources */,
 				D17DBD8B1ADD630400FFCF6C /* Images.xcassets in Resources */,
+				D17DBDB11ADD746200FFCF6C /* github.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +272,7 @@
 			files = (
 				D17DBD831ADD630400FFCF6C /* Conti_App.xcdatamodeld in Sources */,
 				D17DBD801ADD630400FFCF6C /* AppDelegate.m in Sources */,
-				D17DBD861ADD630400FFCF6C /* ViewController.m in Sources */,
+				D17DBD861ADD630400FFCF6C /* Start.m in Sources */,
 				D17DBD7D1ADD630400FFCF6C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
