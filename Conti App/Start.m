@@ -121,4 +121,17 @@ float height;
         self.imgUser.hidden=YES;
     }
 }
+- (IBAction)segmentedPress:(id)sender {
+    
+    if (self.segmentedControl.selectedSegmentIndex==0) {
+        self.view.backgroundColor=[UIColor whiteColor];
+    }
+    
+    else if (self.segmentedControl.selectedSegmentIndex==1) {
+        self.view.backgroundColor=[UIColor blueColor];
+    }
+    else if (self.segmentedControl.selectedSegmentIndex==2) {
+        self.view.backgroundColor=[UIColor purpleColor];
+    }
+}
 @end

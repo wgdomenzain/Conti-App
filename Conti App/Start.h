@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface Start : UIViewController
-//switch
+//segmented Control
+@property (strong, nonatomic) IBOutlet UISegmentedControl *segmentedControl;
 
 
 //switch value
@@ -20,6 +21,7 @@
 
 
 //Labels
+
 @property (strong, nonatomic) IBOutlet UILabel *lblTitle;
 
 //Actions
@@ -27,5 +29,6 @@
 - (IBAction)btnChangeColorPressed:(id)sender;
 - (IBAction)btnChangeSize:(id)sender;
 - (IBAction)switchPressed:(id)sender;
+- (IBAction)segmentedPress:(id)sender;
 @end
 
